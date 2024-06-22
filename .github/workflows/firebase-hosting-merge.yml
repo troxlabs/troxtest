@@ -15,9 +15,6 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Seing for the angular-cli version
-        run: ng v
-
       - name: Build the project
         run: npm run build
 
